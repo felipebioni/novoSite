@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+li{
+    list-style-type: none;
+}
+/*---------- reset ----------*/
+
+body{
+    background-color: black;
+}
+h1{
+    font-size: 245%;
+    padding-left: 9%;
+    color: cornflowerblue;
+    font-family: 'Cormorant SC', serif;
+}
+p{
+    align-self: center;
+    font-size: 125%;
+    color: white;
+}
+a{
+    font-size: 100%;
+    color: black;
+    text-decoration: none; 
+}
+h2{
+    color: cornflowerblue;
+    font-size: 150%;
+}
+figure{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 30%;
+}
+#navegador{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 1%;
+    background-color: crimson;
+    font-size: 135%;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.tiposDeMagos{
+    display: flex;
+    padding-top: 15px;
+}
+.tipoMago{
+    width: 35%;
+}
+div .fundo{
+    display: none;
+}
+@media screen and (min-width:1550px) {
+    h1{
+        font-size: 810%;
+        padding-left: 21%;
+        color: cornflowerblue;
+        font-family: 'Cormorant SC', serif;
+    }
+    h2{
+        color: cornflowerblue;
+        font-size: 295%;
+    }
+    h3{
+        color: azure;
+        font-size: 295%;
+    }
+    img{
+        width: 23%;
+    }
+    p{
+        align-self: center;
+        font-size: 185%;
+        color: white;
+    }
+    a{
+        font-size: 100%;
+        color: black;
+        text-decoration: none; 
+    }
+    #navegador{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        padding: 0.8%;
+        background-color: crimson;
+        font-size: 195%;
+        font-family: 'Times New Roman', Times, serif;  
+    }
+    .tiposDeMagos{
+        display: flex;
+        padding-top: 15px;
+        
+    }
+    .tipoMago{
+        width: 19%;
+    }
+    .magias{
+        display: flex;
+        padding-top: 15px;
+        flex-direction: column; 
+        
+    }
+    div .fundo{
+        display: inline;
+    }
+}
